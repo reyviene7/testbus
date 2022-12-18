@@ -1,24 +1,47 @@
 import './App.css';
 import NavBar from './components/NavBar';
-import background from './assets/background.jpg';
 import pic1 from './assets/2.jpg';
 import pic2 from './assets/3.jpg';
 import pic3 from './assets/4.jpg';
+import {BsSearch} from 'react-icons/bs'
+import calendar from './assets/calendar.JPG';
+import disk from './assets/desk.png';
+
+
+function ClickMe(){
+  alert('Hi!');
+}
 
 
 function App() {
   
   return (
     <div className="App">
-      <NavBar/>
-        <div className="background"> 
-        
+          <NavBar/>
           <header className="App-header">
+            
             <div className='container about__container'>
             <div className='about__me'>
             <div className='about__me-image'>
-
+              <p className='search_p'>SEARCH TRIP</p>
+              <ul className='search'>
+              <li>
+                <p>From</p>
+              <input type='text' placeholder=''/>
+              </li>
+              <li>
+              <p>To</p>
+              <input type='text' placeholder=''/>
+              </li>
+              <li>
+              <br/>
+              <br/>
+              <br/>
+              <button onClick={ClickMe}><BsSearch/></button>
+              </li>
+              </ul>
             </div>
+            
             </div>
           <div className='content'>
            <div className='cards'>
@@ -31,13 +54,28 @@ function App() {
               <article className='card'>
               <img src={pic1} alt=''></img>
               </article>
+              
+            </div>
+            </div>
             
             </div>
-            </div>
-            </div>
+              
+              <div className='list'>
+                <p className='title'>THE WHEELS ON THE GO</p>
+                <div className='list_card'>
+                <p className='subtitle'>ILIGAN TO CDO
+                <p className='subsubtitle'>FIRST TRIP 4:00 AM<br/>LAST TRIP 5:30 PM</p></p>
+                <article className='calen'>
+                <img src={calendar} alt=''></img>
+                </article>
+                </div>
+              <article className='disk'>
+              <img src={disk} alt=''></img>
+              </article>
+              </div>
+              <br/>
           </header>
         </div>
-      </div> 
   );
 }
 
