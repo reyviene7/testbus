@@ -1,6 +1,6 @@
 img {
     height: 5em;
-    width: 10em;
+    width: 11em;
 }
 
 .logo {
@@ -32,8 +32,8 @@ nav {
 #navbar li a{
     text-decoration: none;
     font-size: 2.3rem;
-    font-weight: 600;
-    color: rgb(170, 0, 0);
+    font-weight: bold;
+    color: rgba(214,0,0,255);
     transition: 0.3s ease-in-out;
 }
 
