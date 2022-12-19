@@ -1,23 +1,20 @@
-import './App.css';
-import NavBar from './components/NavBar';
-import pic1 from './assets/2.jpg';
-import pic2 from './assets/3.jpg';
-import pic3 from './assets/4.jpg';
+import React from 'react'
+import './Home.css';
+import pic1 from '../assets/2.jpg';
+import pic2 from '../assets/3.jpg';
+import pic3 from '../assets/4.jpg';
 import {BsSearch} from 'react-icons/bs'
-import calendar from './assets/calendar.JPG';
-import disk from './assets/desk.png';
+import calendar from '../assets/calendar.JPG';
+import disk from '../assets/desk.png';
 
 
 function ClickMe(){
-  alert('Hi!');
-}
+    alert('Hi!');
+  }
 
-
-function App() {
-  
+const Home = () => {
   return (
-    <div className="App">
-          <NavBar/>
+    <>
           <header className="App-header">
             
             <div className='container about__container'>
@@ -75,8 +72,8 @@ function App() {
               </div>
               <br/>
           </header>
-        </div>
-  );
+        </>
+  )
 }
 
-export default App;
+export default Home
