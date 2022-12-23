@@ -1,4 +1,5 @@
 .Book-header {
+    margin-top: -1.2rem;
     opacity: 1;
     background-image: url("../assets/background.jpg");
     padding-top: 3rem;
@@ -86,8 +87,8 @@
 }
   
 .listbook {
-    margin-bottom: 200px;
-    aspect-ratio: 1/1;
+    margin: 10px 20px 0px 0px;
+    padding-bottom: 80px;
     padding-left: 20px;
     background-color: rgba(252, 174, 173, 0.8);
     background-position: center;
@@ -95,6 +96,7 @@
     position: relative;
     grid-template-columns: 30% 50%;
 }
+
   
 .booksubtitle {
     font-family: 'Caveat', cursive;
@@ -123,9 +125,11 @@
 .bookdisk {
     position: relative;
     margin-left: 50rem;
+    margin-bottom: 4rem;
 }
   
 .bookdisk img {
+    text-align: left;
     position:absolute;
     right:0;
     top:0;
@@ -134,6 +138,7 @@
 }
   
 .inputlist{
+    margin-left: 50px;
     font-size: 15px;
     padding: 15px;
 }
@@ -155,3 +160,5 @@ table button{
     padding: 5px 10px 5px 10px;
     font-family: 'Open Sans', sans-serif;
 }
+
+::-webkit-scrollbar {display:none;}

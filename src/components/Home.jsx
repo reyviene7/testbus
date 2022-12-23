@@ -8,11 +8,10 @@ import calendar from '../assets/calendar.JPG';
 import disk from '../assets/desk.png';
 
 
-function ClickMe(){
-    alert('Hi!');
-  }
 
 const Home = () => {
+  
+
   return (
     <>
           <header className="App-header">
@@ -34,7 +33,7 @@ const Home = () => {
               <br/>
               <br/>
               <br/>
-              <button onClick={ClickMe}><BsSearch/></button>
+              <a href='/book'><button><BsSearch/></button></a>
               </li>
               </ul>
             </div>
@@ -65,10 +64,11 @@ const Home = () => {
                 <article className='calen'>
                 <img src={calendar} alt=''></img>
                 </article>
+                <article className='disk'>
+                <img src={disk} alt=''></img>
+                </article>
                 </div>
-              <article className='disk'>
-              <img src={disk} alt=''></img>
-              </article>
+              
               </div>
               <br/>
           </header>

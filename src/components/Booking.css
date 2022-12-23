@@ -1,0 +1,113 @@
+.Booking-header {
+    margin-top: -1.2rem;
+    opacity: 1;
+    background-image: url("../assets/background.jpg");
+    padding-top: 3rem;
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+  
+.Booking-header::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+  
+}
+
+.listbooking {
+    margin: 10px 20px 10px 10px;
+    padding-bottom: 20rem;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    grid-template-columns: 30% 50%;
+
+}
+
+.Listing {
+    display: flex;
+    justify-content: left;
+}
+
+.Listing li{
+    margin-right: 20px;
+    list-style: none;
+}
+
+.Listingform {
+    text-align: center;
+    font-size: 15px;
+    width: 12rem;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.forming{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.next {
+    width: 10rem;
+    height: 4rem;
+    border-radius: 50px;
+    border-color: white;
+}
+
+.nextpoint{
+    text-align: center;
+
+}
+
+input[name='options'] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    /* For iOS < 15 */
+    background-color: white;
+    /* Not removed via appearance */
+    margin: 0;
+  
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+    transform: translateY(-0.075em);
+  }
+  
+  input[name='options']::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    /* Windows High Contrast Mode */
+    background-color: rebeccapurple;
+  }
+  
+  input[name='options']:checked::before {
+    transform: scale(1);
+  }
+  
+  input[name='options']:focus {
+    outline: max(2px, 0.15em) solid currentColor;
+    outline-offset: max(2px, 0.15em);
+  }

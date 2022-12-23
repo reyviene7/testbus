@@ -1,59 +1,39 @@
-import {Link} from "react-router-dom";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Book from './Book';
 import React from 'react'
 import logo from '../assets/logo.png'
 import './NavBar.css';
 import {BsInstagram, BsFacebook, BsTwitter} from 'react-icons/bs'
 
-const NavBar = () => {
-  return (
-    <>
-    <Router>
-      
+function NavBar() {
+  return (      
     <nav>
-        <div className='logo'>
-       <Link to='/' target="_self"> <img src = {logo} alt=''/></Link>
-       </div>
-       <div> 
-
         
+       <div> 
        <ul id='navbar'>
-        <li>
-            <Link to='/book' target="_self">BOOK</Link>
-        </li>
-        <li>
-            <Link to='/'>MANAGE</Link>
-        </li>
-        <li>
-            <Link to='/'>TRAVEL INFO</Link>
-        </li>
-        <li>
-            <Link to='/'>ABOUT</Link>
-        </li>
+       <div className='logo'>
+       <a href ='/'> <img src = {logo} alt=''/></a>
+       </div>
+       <CustomLink href='/book'>BOOK</CustomLink>
+       <CustomLink href='/'>MANAGE</CustomLink>
+       <CustomLink href='/'>TRAVEL INFO</CustomLink>
+       <CustomLink href='/'>ABOUT</CustomLink>
        </ul>
             
        <ul id='social'>
-        <li>
-            <Link to='/'> <BsFacebook className='icons'/></Link>
-        </li>
-        <li>
-            <Link to='/'> <BsInstagram className='icons'/></Link>
-        </li>
-        <li>
-            <Link to='/'> <BsTwitter className='icons'/></Link>
-        </li>
-       </ul>
-       <Routes>
-        <Route path="book" element={<Book />}/>
-          
-      </Routes>
+       <CustomLink href='/'><BsFacebook className='icons'/></CustomLink>
+       <CustomLink href='/'><BsInstagram className='icons'/></CustomLink>
+       <CustomLink href='/'><BsTwitter className='icons'/></CustomLink>
+       </ul>   
        </div>
     </nav>
-    
-    </Router>
-    </>
   )
+}
+
+function CustomLink({ href, children, ...props }){
+    return(
+        <li>
+            <a href={href}>{children}</a>
+        </li>
+    )
 }
 
 export default NavBar
