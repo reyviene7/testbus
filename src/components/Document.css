@@ -1,0 +1,119 @@
+.Document-header {
+    margin-top: -1.2rem;
+    opacity: 1;
+    background-image: url("../assets/background.jpg");
+    padding-top: 3rem;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+  
+.Document-header::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+  
+}
+
+.listdocument {
+    margin: 10px 20px 0px 20px;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    grid-template-columns: 30% 50%;
+}
+
+.backgroundc {
+    background-image: url("../assets/purplebus.png");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 80%;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.camera {
+    margin-left: 20rem;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+    width: 10rem;
+    height: 5rem;
+    border-radius: 20px;
+}
+
+.camera1 {
+    width: 60px;
+    height: 60px;
+}
+
+
+.camera1-first{
+    margin-left: 10rem;
+    background-color: white;
+    text-align: center;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    
+}
+
+.upload {
+    align-items: center; 
+}
+
+.upload1 {
+
+    margin-left: 6rem;
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+
+.upload-text {
+    margin-left: 10rem;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+}
+
+.bus {
+    width: 30rem;
+    height: 18rem;
+    opacity: 0.8;
+    margin-right: 30px;
+}
+
+
+
+.nextd {
+    width: 10rem;
+    height: 4rem;
+    border-radius: 50px;
+    border-color: white;
+    margin-bottom: 50px;
+}
+
+.nextpointd{
+    text-align: center;
+}
+

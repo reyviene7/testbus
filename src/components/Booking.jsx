@@ -65,8 +65,8 @@ function Booking (){
                     <input type='radio' name='ondition' value='No'/>  SEAT               
                 </form>
                 </div>
-                <div className='nextpoint'>
-                <input type='submit' value="Next" className='next'/>        
+                <div className='nextpoint'><a href='/document'>
+                <input type='submit' value="Next" className='next'/>  </a>      
                 </div>
         </div>
     </div>

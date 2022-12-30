@@ -13,7 +13,8 @@ const Home = () => {
   
 
   return (
-    <>
+    
+    <div className='ender'>
           <header className="App-header">
             
             <div className='container about__container'>
@@ -72,7 +73,8 @@ const Home = () => {
               </div>
               <br/>
           </header>
-        </>
+          </div>
+        
   )
 }
 

@@ -1,0 +1,104 @@
+.Gcash-header {
+    margin-top: -1.2rem;
+    opacity: 1;
+    background-image: url("../assets/background.png");
+    padding-top: 3rem;
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+}
+  
+.Gcash-header::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+  
+}
+
+.Gcashdocument {
+    margin: 30px 30px 50px 30px;
+    background-color: rgba(255, 255, 255, 0.4);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    grid-template-columns: 30% 50%;
+    padding-bottom: 120px;
+}
+
+.Gdiffer {
+    padding: 30px 30px 10px 30px;
+    font-size: 20px;
+    font-family: 'Tinos', serif;
+}
+
+.Gfonter {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+} 
+
+.Gcolomin {
+    margin-left: 50px;
+    float: left;
+    width: 50%;
+    background-color: rgba(245,169,169,255);
+    border-radius: 20px;
+}
+
+.Gbanker {
+    width: 200px;
+    height: 100px;
+    margin-left: 20px;
+    float: left;
+}
+
+.Gbanks {
+    align-items: center; 
+}
+
+.Gclassic {
+    margin-left: 10rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.formpay {
+    display: grid;
+}
+
+.Gpayin {
+    margin-right: 50px;
+    margin-left: 30px;
+    float: left;
+    font-size: 25px;
+
+}
+
+.Gpaying {
+    margin-right: 130px;
+    margin-left: 30px;
+    float: left;
+    font-size: 25px;
+}
+
+.Gpays {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.Gpaynext {
+    width: 15rem;
+    height: 5rem;
+    border-color: white;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+

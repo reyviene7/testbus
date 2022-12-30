@@ -1,0 +1,115 @@
+.SPaypal-header {
+    margin-top: -1.2rem;
+    opacity: 1;
+    background-image: url("../assets/background.png");
+    padding-top: 3rem;
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+}
+  
+.SPaypal-header::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+  
+}
+
+.Spaypaldocument {
+    margin: 30px 30px 50px 30px;
+    background-color: rgba(255, 255, 255, 0.4);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    grid-template-columns: 30% 50%;
+    padding-bottom: 120px;
+
+}
+
+.Sdiffer {
+    padding: 30px 30px 10px 30px;
+    font-size: 20px;
+    font-family: 'Tinos', serif;
+}
+
+.Sfonter {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+} 
+
+.Scolomin {
+    margin-left: 50px;
+    float: left;
+    width: 40%;
+    background-color: rgba(245,169,169,255);
+    margin-top: 100px;
+
+}
+
+.sbus {
+    margin: 100px 50px 0px 100px;
+}
+
+.Sbanker {
+    width: 120px;
+    height: 100px;
+    margin-left: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sbanks {
+    align-items: center; 
+    text-align: center;
+}
+
+.Sclassic {
+    margin-left: 10rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.formpay {
+    display: grid;
+}
+
+.Spayin {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Tinos', serif;
+
+
+}
+
+.Spaying {
+    font-weight: 100;
+    color: black;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.Spays {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.Spaynext {
+    width: 15rem;
+    height: 5rem;
+    border-color: white;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+

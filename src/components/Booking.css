@@ -22,10 +22,10 @@
 }
 
 .listbooking {
-    margin: 10px 20px 10px 10px;
+    margin: 10px 20px 0px 20px;
     padding-bottom: 20rem;
     padding-left: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.5);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -58,6 +58,9 @@
     font-weight: bold;
     font-size: 20px;
     padding: 20px;
+    background-image: url("../assets/purplebus.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .next {

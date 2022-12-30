@@ -1,0 +1,54 @@
+.Payment-header {
+    margin-top: -1.2rem;
+    opacity: 1;
+    background-image: url("../assets/background.png");
+    padding-top: 3rem;
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+  
+.Payment-header::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+  
+}
+
+.paymentdocument {
+    margin: 30px 30px -25px 30px;
+    background-color: rgba(255, 255, 255, 0.4);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    grid-template-columns: 30% 50%;
+}
+
+.fonter {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+} 
+.paymentb {
+    padding: 50px 150px 150px 150px;
+    background-image: url("../assets/payment.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    text-align: center;
+}
+
+.listpayment li {
+    list-style: none;
+}
+
+.optionsp {
+   width: 20rem;
+}
+
+

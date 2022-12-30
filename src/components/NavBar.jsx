@@ -13,7 +13,7 @@ function NavBar() {
        <a href ='/'> <img src = {logo} alt=''/></a>
        </div>
        <CustomLink href='/book'>BOOK</CustomLink>
-       <CustomLink href='/'>MANAGE</CustomLink>
+       <CustomLink href='/manage'>MANAGE</CustomLink>
        <CustomLink href='/'>TRAVEL INFO</CustomLink>
        <CustomLink href='/'>ABOUT</CustomLink>
        </ul>

@@ -1,0 +1,62 @@
+.Manage-header {
+    margin-top: -1.2rem;
+    opacity: 1;
+    background-image: url("../assets/background.png");
+    padding-top: 3rem;
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+  
+.Manage-header::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+  
+}
+
+.managedocument {
+    margin: 30px 30px -25px 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    grid-template-columns: 30% 50%;
+}
+
+.distance {
+    padding: 50px 50px 0px 50px;
+}
+.colon {
+    padding-left: 20%;
+    justify-content: left;
+}
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+.Listing {
+    display: flex;
+    justify-content: left;
+}
+
+.Listing li{
+    margin-right: 20px;
+    list-style: none;
+}
+
+.Listingform {
+    text-align: center;
+    font-size: 15px;
+    width: 12rem;
+}
+
+
+
